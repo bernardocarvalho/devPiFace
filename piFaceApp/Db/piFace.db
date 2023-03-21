@@ -1,0 +1,11 @@
+#####################################################
+# ### Write PiFace Relay regs
+###################################################
+record( mbboDirect, "$(user):GpioA") {
+    field(DTYP, "PiFace")
+    field(SHFT, "0")
+    field(NOBT, "8")
+    field(VAL, 15)
+#    field(PINI,"YES")
+}
+
